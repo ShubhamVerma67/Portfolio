@@ -5,7 +5,6 @@ import confetti from "canvas-confetti";
 import {
   Phone,
   Mail,
-  MapPin,
   Send,
   CheckCircle2,
   Copy,
@@ -160,34 +159,6 @@ export default function ContactSection() {
                   title="Copy Email Address"
                 >
                   {copiedType === "email" ? "COPIED" : "COPY"}
-                </button>
-              </div>
-
-              {/* Address */}
-              <div className="flex items-start justify-between gap-4 pt-2 border-t border-zinc-800/80">
-                <div className="flex items-start gap-3">
-                  <div className="w-10 h-10 rounded-xl bg-dark-900 border border-zinc-800 flex items-center justify-center text-crimson-400 shrink-0">
-                    <MapPin className="w-4 h-4" />
-                  </div>
-                  <div>
-                    <span className="block font-mono text-[10px] text-zinc-400 uppercase">
-                      STUDIO LOCATION
-                    </span>
-                    <span className="text-xs font-mono text-zinc-200 leading-relaxed block">
-                      {PERSONAL_INFO.address}
-                    </span>
-                    <span className="text-[11px] font-mono text-zinc-400">
-                      New Delhi, India
-                    </span>
-                  </div>
-                </div>
-
-                <button
-                  onClick={() => handleCopy(PERSONAL_INFO.address, "address")}
-                  className="px-2.5 py-1 rounded bg-dark-900 hover:bg-zinc-800 border border-zinc-800 text-[10px] font-mono text-zinc-300 transition-colors shrink-0"
-                  title="Copy Studio Address"
-                >
-                  {copiedType === "address" ? "COPIED" : "COPY"}
                 </button>
               </div>
             </div>

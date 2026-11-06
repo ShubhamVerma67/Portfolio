@@ -14,7 +14,7 @@ export const PERSONAL_INFO: ContactInfo = {
   experienceYears: "3+ Years",
   phone: "+91 8130173677",
   email: "SV7179109@GMAIL.COM",
-  address: "B101, 4th Floor, Flat No. 4, Triveni Complex",
+  address: "New Delhi, India",
   locationDetails: "New Delhi, India",
   bioSummary:
     "Creative and detail-oriented Graphic Designer with 3 years of experience in branding, print design, and digital media. Skilled at transforming concepts into visually appealing designs that align with client goals and market trends.",
