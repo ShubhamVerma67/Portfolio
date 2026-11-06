@@ -134,8 +134,8 @@ export const SKILLS: Skill[] = [
     category: "Creative Suite",
     proficiency: 85,
     years: "1 Year",
-    brandColor: "#EA77FF",
-    bgTint: "rgba(234, 119, 255, 0.12)",
+    brandColor: "#0066FF",
+    bgTint: "rgba(0, 102, 255, 0.12)",
     description:
       "Professional video editing, dynamic social media reels, promotional teasers, color correction, sound synchronization, and engaging narrative pacing.",
     specialties: [

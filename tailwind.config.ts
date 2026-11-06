@@ -38,7 +38,7 @@ const config: Config = {
           xd: "#FF61F6",
           coreldraw: "#10B981",
           indesign: "#FF3366",
-          premiere: "#EA77FF",
+          premiere: "#0066FF",
           aftereffects: "#9999FF",
           canva: "#00C4CC",
         },

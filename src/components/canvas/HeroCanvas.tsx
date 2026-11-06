@@ -241,19 +241,6 @@ export default function HeroCanvas({
       ctx.lineTo(centerX, centerY + apertureRadius + 15);
       ctx.stroke();
 
-      // Digital coordinates & graphic metadata in monospace font
-      ctx.fillStyle = "rgba(255, 255, 255, 0.35)";
-      ctx.font = "10px monospace";
-      ctx.fillText(
-        `FRAME [${frameIdx.toString().padStart(3, "0")}/${TOTAL_FRAMES}]`,
-        30,
-        height - 30
-      );
-      ctx.fillText(
-        `DPI 300 // CMYK OK // REC 60FPS`,
-        width - 200,
-        height - 30
-      );
       ctx.restore();
     } else {
       // Loading screen on canvas
