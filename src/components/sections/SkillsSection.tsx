@@ -4,7 +4,7 @@ import React from "react";
 import { SKILLS } from "@/data/portfolioData";
 
 export default function SkillsSection() {
-  const filteredSkills = SKILLS.filter((s) => s.category !== "Motion & Video");
+  const filteredSkills = SKILLS;
 
   return (
     <section id="skills" className="relative w-full py-28 sm:py-36 bg-dark-950 border-t border-zinc-800/80">
