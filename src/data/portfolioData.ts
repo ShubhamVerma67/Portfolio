@@ -79,7 +79,7 @@ export const SKILLS: Skill[] = [
     code: "Id",
     category: "Vector & Layout",
     proficiency: 95,
-    years: "3+ Years",
+    years: "1 Year",
     brandColor: "#FF3366",
     bgTint: "rgba(255, 51, 102, 0.12)",
     description:
@@ -97,7 +97,7 @@ export const SKILLS: Skill[] = [
     code: "Cd",
     category: "Vector & Layout",
     proficiency: 90,
-    years: "3+ Years",
+    years: "1 Year",
     brandColor: "#10B981",
     bgTint: "rgba(16, 185, 129, 0.12)",
     description:
@@ -115,7 +115,7 @@ export const SKILLS: Skill[] = [
     code: "Xd",
     category: "Vector & Layout",
     proficiency: 88,
-    years: "3+ Years",
+    years: "1 Year",
     brandColor: "#FF61F6",
     bgTint: "rgba(255, 97, 246, 0.12)",
     description:
